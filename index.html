@@ -3,17 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamza M. Dabjan - Personal Page</title>
+    <title>Your Name - Personal Page</title>
+    <style>
+        /* تنسيقات عامة */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* تنسيق المحتوى الرئيسي */
+        .container {
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* تنسيق العنوان */
+        h1 {
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        /* تنسيق الصورة */
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+            border: 3px solid #0066cc;
+        }
+
+        /* تنسيق الفقرات */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* تنسيق قائمة الملفات */
+        h2 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+            padding: 8px 16px;
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #e6f2ff;
+            transition: background-color 0.3s;
+        }
+
+        ul li a:hover {
+            background-color: #cce0ff;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hamza M. Dabjan</h1>
-    <img src="profile.jpg" alt="Your Picture" width="200">
-    <p>Welcome to my personal page. Here is a bit about me...</p>
-    <p>Research Interests: NLP, Swarm Intelligence, AI.</p>
-    <h2>Downloadable Files</h2>
-    <ul>
-        <li><a href="file1.pdf" download>Download Paper 1</a></li>
-        <li><a href="file2.pdf" download>Download Paper 2</a></li>
-    </ul>
+    <div class="container">
+        <h1>Your Name</h1>
+        <img src="profile.jpg" alt="Your Picture">
+        <p>Welcome to my personal page. Here is a bit about me...</p>
+        <p>Research Interests: NLP, Swarm Intelligence, AI.</p>
+
+        <h2>Downloadable Files</h2>
+        <ul>
+            <li><a href="file1.pdf" download>Download Paper 1</a></li>
+            <li><a href="file2.pdf" download>Download Paper 2</a></li>
+        </ul>
+    </div>
 </body>
 </html>
